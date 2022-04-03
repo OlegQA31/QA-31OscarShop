@@ -12,7 +12,7 @@ public class HomePageTests extends TestBase {
 
     @BeforeMethod
     public void initTest(){
-        homePage = new HomePage();
+        homePage = new HomePage(driver);
     }
 
     @Test
